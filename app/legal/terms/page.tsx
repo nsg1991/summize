@@ -1,0 +1,1 @@
+export default function Terms(){return(<section><h1>Terms of Service</h1><p>Placeholder. Replace before launch.</p></section>)}

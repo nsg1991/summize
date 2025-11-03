@@ -1,0 +1,21 @@
+:root { --max: 900px; }
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; color:#111; }
+.container { max-width: var(--max); margin: 0 auto; padding: 24px; }
+.nav { display:flex; align-items:center; justify-content:space-between; padding:12px 24px; border-bottom:1px solid #eee; position:sticky; top:0; background:#fff; }
+.nav a { text-decoration:none; color:#111; margin-left:16px; }
+.brand { font-weight:700; }
+.footer { border-top:1px solid #eee; padding:24px; text-align:center; color:#444; }
+h1 { font-size: 2rem; margin: 16px 0; }
+h2 { font-size: 1.25rem; margin: 12px 0; }
+h3 { font-size: 1.1rem; margin: 8px 0; }
+p { color:#333; }
+.bullets { margin: 16px 0; padding-left: 18px; }
+.actions { display:flex; gap:12px; margin:16px 0; }
+.btn { background:#111; color:#fff; border:none; padding:10px 14px; border-radius:8px; cursor:pointer; }
+.btn:hover { opacity:0.9; }
+.btn.outline { background:#fff; color:#111; border:1px solid #ddd; }
+.cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-top:12px; }
+.card { border:1px solid #eee; border-radius:12px; padding:16px; background:#fff; }
+textarea { width:100%; border:1px solid #ddd; border-radius:8px; padding:10px; font: inherit; }
+.price { font-size: 1.5rem; font-weight:700; margin: 6px 0 10px; }
